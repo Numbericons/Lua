@@ -61,6 +61,8 @@ for i = 1, 100 do  -- The range includes both ends.
   karlSum = karlSum + i
 end
 
+print('Karl sum incoming!!!')
+print(karlSum)
 -- Use "100, 1, -1" as the range to count down:
 fredSum = 0
 for j = 100, 1, -1 do fredSum = fredSum + j end
