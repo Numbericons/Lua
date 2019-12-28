@@ -145,6 +145,7 @@ t = {key1 = 'value1', key2 = false}
 -- String keys can use js-like dot notation:
 print(t.key1)  -- Prints 'value1'.
 t.newKey = {}  -- Adds a new key/value pair.
+print(t.newKey)
 t.key2 = nil   -- Removes key2 from the table.
 
 -- Literal notation for any (non-nil) value as key:
